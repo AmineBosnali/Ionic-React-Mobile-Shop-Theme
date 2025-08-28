@@ -1,0 +1,49 @@
+// @import "./variables.scss";
+
+.iconBoxList {
+  color: #ffffff;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+
+  &.danger {
+    background: var(--custom-red);
+  }
+  &.default {
+    background: var(--custom-gray);
+  }
+  &.success {
+    background: var(--custom-green);
+  }
+  &.info {
+    background: var(--custom-blue);
+  }
+  &.primary {
+    background: var(--ion-color-primary);
+  }
+  &.secondary {
+    background: var(--ion-color-secondary);
+  }
+}
+
+ion-label {
+  font-weight: 600;
+  font-size: 0.9em !important;
+
+  p {
+    font-size: 0.7em !important;
+    color: #000000 !important;
+    font-weight: 400 !important;
+    margin-top: 0.2rem !important;
+  }
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #d2d2d24a;
+}
+.subtext{
+  font-size: 0.9em;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}

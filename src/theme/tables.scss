@@ -1,0 +1,47 @@
+.tableContainer {
+  overflow-x: auto;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.simpleTable ion-col,
+.imageTable ion-col,
+.checkboxTable ion-col,
+.filterableTable ion-col,
+.editableTable ion-col,
+.detailsTable ion-col {
+  border-bottom: 1px solid #797979;
+  min-height: 4rem;
+}
+
+.imageTable img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.headerRow {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.headerRow ion-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.tableImage{
+  max-height: 2.5rem;
+}
+
+.tableButton {
+  max-width: 2.5rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,25 @@
+// @import './variables.scss';
+
+
+.qrCode {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.scannedData {
+  margin-top: 1rem;
+}
+
+.scannedData h3 {
+  margin-bottom: 0.5rem;
+}
+
+.scannedData p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.qrVideo {
+  width: 100%;
+}

@@ -1,0 +1,132 @@
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.swiperCard {
+  width: 100%;
+  .row{
+    justify-content: center;
+  }
+}
+
+.swiperCardTitle {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+}
+
+.swiperCardTitle span {
+  margin-left: auto;
+}
+
+.swiperCardSubTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiperCardSubTitle span {
+  margin-left: auto;
+}
+
+.shareButton {
+  font-size: 3.5em;
+  margin-right: 0.2rem;
+}
+
+.heartButton {
+  font-size: 3.5em;
+}
+
+.iconBox {
+  font-size: 3rem;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 0.7em;
+  font-weight: 500;
+}
+
+ion-accordion-group {
+  padding: 0 !important;
+}
+
+.shareCol {
+  text-align: start;
+  margin-top: 0.5rem;
+}
+
+.prev-arrow,
+.next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  color: var(--custom-light-gray);
+  cursor: pointer;
+  border-radius: 4px;
+  user-select: none;
+  z-index: 10;
+  font-size: 2rem;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px;
+}
+
+.prev-arrow:hover,
+.next-arrow:hover {
+  color: var(--custom-white);
+}
+.star {
+  font-size: 1.5em;
+  color: var(--custom-yellow);
+}
+.swiperOne {
+  position: relative; 
+  p{
+    position: absolute;
+    font-size: 2.1em;
+    justify-content: center;
+    font-weight: 400;
+    padding: 0 5rem 0 5rem;
+    z-index: 999999;
+    color: rgb(218, 218, 218);
+    line-height:1.2 ;
+  }
+  span {
+    position: absolute;
+    bottom: 0.9rem;
+    font-size: 0.7em;
+    font-weight: 700;
+    z-index: 999999;
+    color: rgb(205, 205, 205);
+  }
+  div{
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, rgb(0 0 0) 30%, rgb(0 0 0 / 20%) 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    opacity: 0.6;
+  }
+}
+.swiperOneImg {
+  object-fit: cover;
+  max-height: 17rem;
+}
+.swiperThree{
+  padding: 1.1rem;
+}
+.swiperThreeImg {
+  object-fit: cover;
+}

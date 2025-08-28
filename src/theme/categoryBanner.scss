@@ -1,0 +1,57 @@
+.menu-grid {
+    --ion-grid-padding: 0;
+  
+    .menu-row {
+      --ion-grid-column-padding: 0;
+      display: flex;
+      justify-content: center;
+  
+      .menu-col {
+        text-align: center;
+        margin-bottom: 1.5rem;
+  
+        .menu-circle-wrapper {
+          position: relative;
+          width: 80px;
+          height: 80px;
+          margin: 0 auto;
+  
+          .menu-circle {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 1px solid var(--custom-black);
+            overflow: hidden;
+            background-color: var(--ion-color-light);
+  
+            .menu-image {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+  
+          .menu-badge {
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: .7em;
+            white-space: nowrap;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+          }
+        }
+  
+        .menu-title {
+          margin-top: 1rem;
+          font-size: .7em;
+          font-weight: 400;
+          color: var(--custom-black);
+        }
+      }
+    }
+  }
+  

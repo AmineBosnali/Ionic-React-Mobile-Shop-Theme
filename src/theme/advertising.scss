@@ -1,0 +1,47 @@
+.modalBackground {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.modalBackground::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.1; 
+}
+.advFullTitle {
+  color:  #8e8e8e;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+.advFullContent {
+  color:  var(--custom-light-gray);
+  font-size: 1em;
+  font-weight: 500;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modalClose{
+  color:  var(--custom-light-gray);
+  font-size: 2em;
+}
+.modalTitle{
+  color:  var(--custom-light-gray);
+  font-size: 0.7em;
+}
+ion-modal#theme-modal {
+  --height: 70%;
+  align-items: end;
+  --border-radius: 16px 16px 0 0; 
+}

@@ -1,0 +1,82 @@
+:root {
+  --ion-item-border-color: var(--ion-background-color-step-200);
+}
+
+:root.ios {
+  --ion-background-color: linear-gradient(to top, #ffffff, rgb(241, 240, 233));
+  --ion-color: #4d4d4d;
+  --ion-item-border-color: #cacaca;
+  --ion-item-background: #ffffff;
+  --ion-card-background: #ffffff;
+  --ion-tab-bar-background: #ffffff;
+  --ion-toolbar-background: transparent;
+  --ion-toolbar-color: #000000;
+  --ion-overlay-background-color:#ffffff;
+  --ion-color-light: #ffffff;
+  --ion-color-dark: #000000;
+  --ion-color-light-contrast: #5a5a5a;
+  --ion-tab-bar-color: #0a0a0a;
+  --ion-tab-bar-color-selected: #8a8a8a;
+  --ion-tab-bar-border-color: #c1c1c1;
+  --background: #ffffff;
+  --ion-card-color: #4d4d4d;
+  --ion-item-color: #2f2f2f;
+  --ion-text-color: #a93b05;
+  --ion-color-shade: #dbdbdb00;
+}
+
+:root.md {
+  --ion-background-color: rgb(241, 240, 233);
+  --ion-color: #4d4d4d;
+  --ion-item-border-color: #cacaca;
+  --ion-item-background: #ffffff;
+  --ion-card-background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(251, 251, 251));
+  --ion-overlay-background-color:#ffffff;
+  --ion-text-color: #000000;
+  --ion-tab-bar-background: #ffffff;
+  --ion-toolbar-background: transparent;
+  --ion-color-light: #ffffff;
+  --ion-color-dark: #000000;
+  --ion-color-light-contrast: #5a5a5a;
+  --ion-tab-bar-color: #0a0a0a;
+  --ion-tab-bar-color-selected: #072d98;
+  --ion-tab-bar-border-color: #c1c1c1;
+  --background: #ffffff;
+  --ion-card-color: #4d4d4d;
+  --ion-item-color: #2f2f2f;
+  --ion-text-color: #a93b05;
+  --ion-color-shade: #dbdbdb00;
+}
+
+
+/* Theme Configs */
+$primary-color: linear-gradient(to bottom, rgb(70, 127, 160), rgb(0, 61, 96));
+$secondary-color:linear-gradient(to bottom, #de5d1c, #a93b05);
+$third-color: #e4bca2;
+$fourth-color: #de5d1c;
+$text-color: #000000;
+$background-color: #ffffff;
+$dark-background-color: #121212;
+$red-color:linear-gradient(to left, #a81f00, #900000);
+$green-color: linear-gradient(to bottom, #65800d, #2f4600);
+$dark-green-color: #356549;
+$dark-red-color: #af2222;
+$blue-color: linear-gradient(to left, #2f4d84, #042b3c);
+$dark-blue-color: #235576;
+$orange-color:linear-gradient(to left, #8c3c11, #ba7703);
+$white-color: #ffffff;
+$black-color: #2b2b23;
+$gray-color: #393b3d;
+$yellow-color: #f39c12;
+$pink-color: #ff5188;
+$light-gray-color: #797979;
+$dark-green-color: #546401;
+$font-family: "Roboto", sans-serif;
+$heading-font-size: 24px;
+$body-font-size: 16px;
+
+$button-padding: 10px 20px;
+$border-radius: 4px;
+
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+$transition-duration: 0.3s;

@@ -1,0 +1,22 @@
+.themeButton {
+    --color: var(--custom-white);
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+    &.danger {
+      --background: var(--custom-red);
+    }
+    &.default {
+      --background: var(--custom-secondary);
+    }
+    &.warning {
+      --background: var(--custom-orange);
+    }
+    &.success {
+      --background: var(--custom-green);
+    }
+    &.info {
+      --background: var(--custom-blue);
+    }
+  }

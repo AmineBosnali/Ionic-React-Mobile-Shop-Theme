@@ -1,0 +1,38 @@
+# IonShop - Support & Documentation
+
+## 📧 Contact for Support
+If you need help with IonShop, please contact us through one of the following methods:
+
+- **Email:** aminnebosnali@gmail.com
+- **Website:** https://www.vevasoft.com/
+
+We aim to respond to all support requests within **24-48 hours**.
+
+---
+
+## 🛠 What is Covered in Support?
+✅ **Installation Issues**  
+✅ **Bug Fixes & Reported Errors**  
+✅ **Guidance on Basic Customization**  
+✅ **Documentation Assistance**  
+
+---
+
+## ❌ What is NOT Covered?
+🚫 **Customization & Feature Requests**  
+🚫 **Third-Party Plugin Integration**  
+🚫 **Server & Hosting Issues**  
+🚫 **Backend Development**  
+
+For advanced customization or feature requests, you can hire a developer or check our **premium support options** on our website.
+
+---
+
+## 📜 Documentation
+You can find the full setup guide and installation instructions in the **README.md** file included in the package.
+
+If you have any issues, feel free to contact us via email or the support page.
+
+---
+
+### 🚀 Thank you for using IonShop! We appreciate your support.

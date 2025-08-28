@@ -1,0 +1,116 @@
+.messagesContainer {
+  overflow-y: auto;
+  flex-grow: 1;
+  padding: 10px;
+  margin: 3rem 0 3rem 0;
+  height: calc(100vh - 200px);
+}
+.backIconChat{
+  color: #626262;
+}
+.titleChat{
+  color: #626262;
+}
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+
+.message.received {
+  justify-content: flex-start;
+}
+
+.message.sent {
+  justify-content: flex-end;
+}
+
+.messageLabel {
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--custom-gray);
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.message.sent .messageLabel {
+  background-color: #cc5911f2;
+}
+
+.messageText {
+  color: var(--custom-white) !important;
+  font-size: 1em !important;
+}
+
+.messageTime {
+  p {
+    font-size: 0.8em;
+    text-align: right;
+    color: #ddd !important;
+  }
+}
+
+.messageItem {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.messageItem.left {
+  justify-content: flex-start;
+}
+
+.messageItem.right {
+  justify-content: flex-end;
+}
+
+.messageFile {
+  margin-top: 10px;
+}
+
+.messageFile img,
+.messageFile video {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.inputContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.filePreview {
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: var(--custom-light-gray);
+}
+
+.filePreview img,
+.filePreview video {
+  max-height: 40rem;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.removeFile {
+  position: absolute;
+  color: var(--custom-dark-red);
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+#sendButton {
+  margin-bottom: 1rem;
+}
+.addPhoto {
+  margin-right: 1rem;
+}
+.avatar {
+  margin-right: 0.4rem;
+}

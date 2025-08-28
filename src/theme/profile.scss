@@ -1,0 +1,37 @@
+.colorMode {
+  position: relative;
+  margin: 1rem 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.quickMenu {
+  margin: 1rem 0;
+  ion-item {
+    --inner-padding-top: 0.75rem;
+    --inner-padding-bottom: 0.75rem;
+    border-radius: 8px;
+
+    ion-icon {
+      color: var(--ion-color-fourth);
+    }
+    ion-label {
+      font-weight: 400;
+      font-size: 0.9em !important;
+    }
+  }
+}
+
+.servicesCard {
+  ion-card-header{
+    text-align: left;
+    font-weight: 400 !important;
+    font-size: .8em !important;
+  }
+}
+
+.logoutButton{
+  font-size: 1em;
+  font-weight: 600;
+  padding:1rem;
+}

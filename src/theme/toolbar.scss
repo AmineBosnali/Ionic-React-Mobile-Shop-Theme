@@ -1,0 +1,92 @@
+/* src/components/toolbar.scss */
+.accountToolbar {
+  --background: var(--ion-color-light);
+
+  .accountToolbarContent {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-top: 1.5rem;
+    ion-icon{
+      margin:1rem;
+    }
+  }
+
+  .accountAvatar {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #a93b05 0%, #ff7070 100%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .avatar-initials {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+  }
+
+  .account-info {
+    margin-left: 0.75rem;
+
+    .account-name {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--ion-color-dark);
+      line-height: 1.2;
+    }
+
+    .account-subtitle {
+      font-size: 0.75rem;
+      color: var(--ion-color-medium);
+      margin-top: 0.1rem;
+    }
+  }
+
+  .notification-button {
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+    .notification-icon-wrap {
+      position: relative;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin:1.5rem;
+    }
+
+    ion-icon {
+      font-size: 1.2rem;
+      color: var(--ion-color-dark);
+    }
+
+    .notification-badge {
+      position: absolute;
+      top: -0.2rem;
+      right: -0.2rem;
+      background: var(--ion-color-danger);
+      color: #fff;
+      border-radius: 50%;
+      font-size: 0.65rem;
+      line-height: 1;
+      padding: 0.15rem;
+      min-width: 1.2rem;
+      text-align: center;
+    }
+  }
+}

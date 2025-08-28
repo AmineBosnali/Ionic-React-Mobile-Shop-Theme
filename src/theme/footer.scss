@@ -1,0 +1,35 @@
+.companyTitle {
+  font-size: 1.3m;
+  font-weight: 900;
+  padding: 1rem;
+  color: var(--custom-light-gray);
+}
+
+.footerSubtitle{
+  font-size: .6em;
+}
+
+.footer-card {
+  width: 100%;
+  &.row {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.socialButton{
+  margin: .3rem !important;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #bebcbc4a;
+  margin-bottom: 1rem;
+}
+
+.copyright{
+  font-size: 0.8em;
+  color: var(--custom-light-gray);
+  padding: 0.5rem 0rem 0.5rem 0rem;;
+}

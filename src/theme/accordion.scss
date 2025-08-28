@@ -1,0 +1,27 @@
+.highlight {
+  background: #434a54;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.highlightColor {
+  color: #ffffff;
+}
+.accordion-background {
+  background-image: url(/product/productImageOne.jpg);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  min-height: 5rem;
+  &.one {
+    background-position: top;
+  }
+  &.two {
+    background-position: center;
+  }
+  &.three {
+    background-position: bottom;
+  }
+}
+.pictureAccordionLabel {
+  font-size: 1.2em !important;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+Unsplash License
+-----------------
+All images used in this project are sourced from Unsplash.com under the Unsplash License.
+These images are free to use for both commercial and non-commercial purposes, without the need for attribution.
+
+However, attribution is appreciated. Below are the images used and their sources:
+
+1. [headerOne] - Nathan Dumlao - https://unsplash.com/photos/person-wearing-white-basketball-shoes-e2PZswWM56Q
+
+2. [headerTwo] - Vittorio Cioffi - https://unsplash.com/photos/person-wearing-white-and-yellow-nike-sneakers-R10T2ISLvY8
+
+3. [headerThree] - Kelli McClintock - https://unsplash.com/photos/person-wearing-orange-nike-sneakers-r8J-tz2jcvY
+
+4. [headerFour] - Vittorio Cioffi - https://unsplash.com/photos/person-wearing-white-and-gray-skate-shoes-inside-ice-skating-rink-WEfBjlrhwcs
+
+5. [headerFive] - Iman Ameli - https://unsplash.com/photos/a-close-up-of-a-person-wearing-yellow-boots-iHWh-9jZeok
+
+6. [headerBackground1] - Kelli McClintock - https://unsplash.com/photos/person-wearing-white-leather-ice-skate-8bH7yjcaFD4
+
+7. [headerBackground2] - Kelli McClintock - https://unsplash.com/photos/person-wearing-white-leather-ice-skate-8bH7yjcaFD4
+
+7. [productImageOne] - Filip Rankovic Grobgaard - https://unsplash.com/photos/a-person-holding-a-purse-and-a-handbag-W7mynU5IDaA
+
+7. [bannerList] - Artem Beliaikin - https://unsplash.com/photos/clothes-hanged-on-clothes-hanger-UdQt3FT6rxM
+
+For more details, see: https://unsplash.com/license

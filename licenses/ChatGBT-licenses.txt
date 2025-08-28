@@ -1,0 +1,35 @@
+ChatGBT License for CodeCanyon Projects
+
+This license applies to the "creditCard.svg" and any associated files in this CodeCanyon project.
+
+---
+
+## 1. License Overview
+This project, including the SVG assets and related files, is licensed for use in CodeCanyon under the following conditions:
+
+✅ **Permitted Uses:**
+- You may use this SVG and related files in both commercial and personal projects.
+- You can modify and customize the files to suit your needs.
+- You may include this file as part of a digital product sold on CodeCanyon.
+
+❌ **Restrictions:**
+- You may not resell, distribute, or share the SVG or related files as a standalone product.
+- You may not claim ownership of the original design.
+- Redistribution outside of CodeCanyon without significant modification is prohibited.
+
+---
+
+## 2. Attribution
+No attribution is required, but if you wish to credit, you can mention:  
+"SVG design generated with assistance from ChatGPT."
+
+---
+
+## 3. Warranty Disclaimer
+THIS FILE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. THE AUTHOR OR DISTRIBUTORS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS FILE.
+
+By using this SVG and project files, you agree to these terms.
+
+---
+
+**© 2025 Your Name or Company Name**

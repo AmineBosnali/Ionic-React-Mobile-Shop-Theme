@@ -1,0 +1,205 @@
+@use "./variables" as *;
+
+:root {
+  --ion-color-primary: #{$primary-color};
+  --ion-color-secondary: #{$secondary-color};
+  --ion-color-third: #{$third-color};
+  --ion-color-fourth: #{$fourth-color};
+  --ion-text-color: #{$text-color};
+  --ion-background-color: #{$background-color};
+  --custom-red: #{$red-color};
+  --custom-orange: #{$orange-color};
+  --custom-black: #{$black-color};
+  --custom-primary: #{$primary-color};
+  --custom-secondary: #{$secondary-color};
+  --custom-pink: #{$pink-color};
+  --custom-dark-red: #{$dark-red-color};
+  --custom-blue: #{$blue-color};
+  --custom-dark-blue: #{$dark-blue-color};
+  --custom-gray: #{$gray-color};
+  --custom-yellow: #{$yellow-color};
+  --custom-light-gray: #{$light-gray-color};
+  --custom-white: #{$white-color};
+  --custom-green: #{$green-color};
+  --custom-dark-green: #{$dark-green-color};
+}
+
+body.dark {
+  --ion-text-color: #{$white-color};
+  --ion-background-color: #1b1d21;
+  --ion-card-background: #1b1e24;
+  --background: #1b1d21;
+  --ion-overlay-background-color: #131313;
+  --ion-tab-bar-background: #21252a;
+  --ion-toolbar-background: transparent;
+  --ion-item-background: none;
+  --ion-item-color: #e4e4e4;
+  --ion-toolbar-color: #ffffff;
+  --ion-tab-bar-color: #ffffff;
+  --ion-tab-bar-color-selected: #8b8b8b;
+  --ion-tab-bar-border-color: #4f4f4f;
+  --ion-card-color: #{$white-color};
+  .homePage {
+    background: #292c2f !important;
+    box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.3);
+  }
+  .backIcon {
+    color: #ffffff !important;
+  }
+
+  .account-name {
+    color: #ffffff !important;
+  }
+
+  .searchInput {
+    border: 1px solid #423f3f;
+  }
+
+  .productCard p,
+  .productCard .description {
+    color: #ffffff !important;
+  }
+
+  .advantageFramework {
+    background: linear-gradient(to top, #00000099, #3e3e3e);
+  }
+
+  .menu-grid .menu-row .menu-col .menu-title {
+    color: #ffffff !important;
+  }
+
+  .order,
+  .orderProductText,
+  .commentText,
+  .totalInfo .amount {
+    color: #ffffff !important;
+  }
+
+  .basketItemCard,
+  .basketSummary,.productActions {
+
+    background: #1d1e1e !important;
+    border:none !important;
+    .lineHorizontal{
+      border-bottom:1px solid #353636 ;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    ion-card-title {
+      color: #d5d5d5 !important;
+    }
+    ion-card {
+      color: #c4c4c4 !important;
+    }
+    ion-modal {
+      --ion-background-color: #161616 !important;
+      --ion-toolbar-background: #181818 !important;
+    }
+    ion-modal {
+      --ion-background-color: #fff !important;
+      --ion-toolbar-background: #262626 !important;
+    }
+  }
+}
+
+.homePage {
+  border-radius: 30px !important;
+  background: linear-gradient(to bottom, rgb(241 240 233), #ffffff) !important;
+  z-index: 999999;
+  box-shadow: 0px -2px 2px rgba(255, 255, 255, 0.3);
+}
+
+ion-toggle {
+  padding: 12px;
+
+  --track-background: #ddd;
+  --track-background-checked: #ddd;
+
+  --handle-background: var(--custom-gray);
+  --handle-background-checked: var(--custom-white);
+
+  --handle-width: 25px;
+  --handle-height: 27px;
+  --handle-max-height: auto;
+  --handle-spacing: 6px;
+
+  --handle-border-radius: 4px;
+  --handle-box-shadow: none;
+}
+
+ion-toggle::part(track) {
+  height: 10px;
+  width: 65px;
+  overflow: visible;
+}
+
+ion-button {
+  &::part(native) {
+    --ripple-color: transparent !important;
+  }
+  &:active::part(native),
+  &:focus::part(native) {
+    filter: brightness(0.8) !important;
+  }
+}
+
+ion-tab-bar {
+  --border: none;
+  --color: #{$secondary-color} !important;
+}
+
+.toolbarButton {
+  padding: 0.7rem;
+}
+
+ion-checkbox::part(container) {
+  border-radius: 6px;
+  border: 2px solid #{$light-gray-color};
+}
+
+ion-datetime-button::part(native) {
+  margin-left: -1rem;
+  background: none;
+}
+
+ion-card {
+  text-align: center;
+  margin-bottom: 0.4rem;
+  margin-top: 0.6rem;
+  border-radius: 1.4rem;
+}
+ion-card-title {
+  font-size: 1rem;
+  letter-spacing: unset;
+  color: #010511;
+  font-weight: 600;
+  margin-bottom: -0.2rem;
+}
+ion-card-subtitle {
+  letter-spacing: unset;
+  font-size: 0.6rem;
+}
+
+.card-content-ios {
+  font-size: small;
+}
+
+ion-item {
+  --transition: none;
+}
+
+ion-toolbar {
+  --border-width: 0 !important;
+  border-bottom: none !important;
+}
+
+ion-badge {
+  background-color: #ff4c00e3;
+  color: #ffffff;
+  font-size: 0.7em;
+}
+
+ion-toggle {
+  --handle-background: #c43f06e3;
+}

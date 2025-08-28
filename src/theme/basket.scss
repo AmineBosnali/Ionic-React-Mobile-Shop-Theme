@@ -1,0 +1,46 @@
+.basketSummary {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid #e0e0e0;
+    background: #fff;
+  }
+  
+ .totalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin:0 0 1rem 1rem;
+  }
+  
+ .totalInfo .label {
+    margin-bottom: 0.25rem;
+    font-size: .9em;
+  }
+  
+.totalInfo .amount {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--custom-gray);
+  }
+ .checkoutButton {
+    margin-left: auto;
+    background-color: var(--ion-color-fourth);
+    color: #fff;
+    padding: .8rem 1.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: .9rem;
+    font-weight:500;
+    cursor: pointer;
+  }
+  
+  .noItems{
+    text-align: center;
+    font-size: .7em;
+  }

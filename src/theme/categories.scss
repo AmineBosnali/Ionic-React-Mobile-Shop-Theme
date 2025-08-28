@@ -1,0 +1,14 @@
+ion-accordion-group {
+  padding: 1rem;
+  ion-item {
+    font-size: 1em;
+    --border-color: rgb(175 175 175); 
+  }
+  ion-item[slot="header"] {
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  ion-item[slot="content"] {
+    border-top: 1px solid var(--border-color);
+  }
+}

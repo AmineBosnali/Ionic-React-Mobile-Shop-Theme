@@ -1,0 +1,44 @@
+// @import "./variables.scss";
+.formButton {
+  margin-top: 2rem;
+}
+.loginPage{
+  --background:  linear-gradient(to top, rgba(228, 228, 228, 0.83), rgb(255, 255, 255));
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  top: 0rem;
+  border-radius: 0 0 0 0;
+}
+.loginCard {
+  top: 20%;
+  position: relative;
+  img{
+    width: 50%;
+  }
+}
+.logoImg {
+  max-width: 20%;
+  display: block;
+  margin: 0 auto;
+}
+.loginItem{
+  text-align: center;
+}
+ion-input.custom {
+  border: 0.5px solid #bfbfbf !important;
+  font-size: 1.1em;
+  border-radius: 1rem;
+}
+.datetimeLabel {
+  font-weight: 400;
+  font-size: 0.75em !important;
+}
+.uploadLabel {
+  font-size: 1em !important;
+  font-weight: 400;
+}
+.uploadInput {
+  max-width: 70%;
+}
